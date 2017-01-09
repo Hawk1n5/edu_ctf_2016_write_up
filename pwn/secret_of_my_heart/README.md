@@ -12,7 +12,7 @@ secret_of_my_heart: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
    NX:       NX enabled
    PIE:      No PIE
 ```
-這隻程式有簡單的4個操作
+這隻程式有簡單的5個操作
 ```
 # ./secret_of_my_heart
 ==================================
@@ -36,7 +36,7 @@ Your choice :
 3. delete a secret
     * free()
 4. quit()
-4869. get_the_secret
+4869. 4869:get_the_secret
     * print list address
 
 看起來就是一臉heap樣

